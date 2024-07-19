@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+.SignupParent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.SignupFstChild {
+  flex-basis: 50%;
+  min-height: 10rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.aapsonaLogo {
+  width: 100px;
+  height: 50px;
+}
+.webLogoDiv {
+  display: flex;
+  justify-content: center;
+}
+.formTag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  gap: 1rem;
+}
+.formTag input {
+  width: 100%;
+  height: 2rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid black;
+}
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btnDiv button {
+  width: 100%;
+  height: 1.8rem;
+  cursor: pointer;
+  background-color: #438ced;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.btnDiv button:hover {
+  background-color: #2970ce;
+}
+
+.divLine {
+  width: 100%;
+  background-color: black;
+  height: 0.1rem;
+  margin-top: 1rem;
+}
+.paraGraphDiv {
+  margin-top: 1rem;
+  text-align: center;
+}
+.linkPara {
+  font-size: 16px;
+}
+
+.errDIvFUn {
+  text-align: center;
+  margin: 1rem 0px;
+  color: red;
+  font-size: 0.9rem;
+}

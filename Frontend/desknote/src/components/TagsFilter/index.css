@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.TagsParent {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  padding: 20px;
+}
+
+.TagCHild {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.tagSection {
+  width: 100%;
+}
+
+.tagBtns {
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: 1px solid black;
+  background-color: transparent;
+}
+
+.lineDIv {
+  width: 100%;
+  height: 0.1rem;
+  background-color: black;
+  margin: 20px 0px;
+}
+.spanWithTag {
+  margin: 5px;
+}
+
+.allNotesCl {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0px 2rem;
+}
+
+.cardDIv {
+  border: 1px solid black;
+  flex-basis: 30%;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.bgChange {
+  background-color: chocolate;
+  color: white;
+}

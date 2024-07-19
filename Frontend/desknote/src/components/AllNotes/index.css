@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+.spanWithTag {
+  margin: 5px;
+}
+
+.cardDIv {
+  border: 1px solid black;
+  flex-basis: 30%;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.allNotesCl {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0px 2rem;
+}
+
+.paraTag {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.allNotesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: rgb(167, 116, 21); */
+  min-height: 100vh;
+}
+
+.h1BackBtn {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.backArrCl {
+  cursor: pointer;
+}
+
+.impToolsDiv {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.selectClrCl {
+  cursor: pointer;
+}
+
+.collection {
+  cursor: pointer;
+}

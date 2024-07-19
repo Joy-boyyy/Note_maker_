@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parentDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+}
+
+.notFoundChild {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noTFOund {
+  width: 50%;
+  height: 90%;
+  /* object-fit: cover; */
+  border-radius: 10%;
+}
+
+.backArrowCL {
+  align-self: flex-start;
+}
+
+.backBtnOk {
+  cursor: pointer;
+}

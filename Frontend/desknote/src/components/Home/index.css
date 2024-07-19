@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+.HomeParent {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  padding: 1rem;
+}
+
+.hopmePrentChild1 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.HomeSearchDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.HomeSearchSubDiv {
+  border: 1px solid black;
+  width: 70%;
+  display: flex;
+  border-radius: 10px;
+  padding-right: 1rem;
+}
+.searchInputCL {
+  width: 100%;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.searchBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cmnGrigCl {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+}
+
+.HomeAddNote {
+  background-color: brown;
+}
+.HomeAllNote {
+  background-color: green;
+}
+.HomeCollectionNote {
+  background-color: yellow;
+  color: black;
+}
+.HomeTagNote {
+  background-color: orange;
+}
+.HomeLogout {
+  background-color: red;
+}
+
+.errMessage {
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  /* Dashboard Css */
+
+  .HomeParent {
+    height: 100vh;
+  }
+
+  .HomeDashboard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    margin-top: 2rem;
+  }
+
+  .line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+    margin: 1rem 0px;
+  }
+}
+
+@media (max-width: 749px) {
+  /* Dashboard Css */
+
+  .HomeDashboard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    margin-top: 2rem;
+  }
+
+  .line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+    margin: 1rem 0px;
+  }
+}
