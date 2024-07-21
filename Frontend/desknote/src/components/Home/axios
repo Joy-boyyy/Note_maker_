@@ -36,7 +36,7 @@ const Home = () => {
 
     try {
       const axiosRes = await axios.post(
-        "http://localhost:8000/notes",
+        "https://note-maker-g95s.onrender.com/notes",
         notesData
       );
       console.log(axiosRes);
@@ -74,7 +74,7 @@ const Home = () => {
   const startSearching = async () => {
     try {
       const gotSearchRes = await axios(
-        `http://localhost:8000/search?email=${myCOntextIns.userDetails.email}&search=${searchVar}`
+        `https://note-maker-g95s.onrender.com/search?email=${myCOntextIns.userDetails.email}&search=${searchVar}`
       );
       console.log("got search", gotSearchRes);
 
