@@ -29,7 +29,7 @@ const MyAllNotes = () => {
     const fetchFun = async () => {
       try {
         const myAllData = await axios(
-          `http://localhost:8000/myNotes?email=${myCOntextIns.userDetails.email}`
+          `https://note-maker-g95s.onrender.com/myNotes?email=${myCOntextIns.userDetails.email}`
         );
 
         if (myAllData.data.message === "Not Any Notes Available") {
