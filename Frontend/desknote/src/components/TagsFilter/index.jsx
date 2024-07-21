@@ -19,7 +19,7 @@ const TagsFilter = () => {
     const fetchTagData = async () => {
       try {
         const tagRelatedData = await axios(
-          `http://localhost:8000/tagNote?tag=%23${
+          `https://note-maker-g95s.onrender.com/tagNote?tag=%23${
             selectedTag.slice(1) || "Notes"
           }&email=${myCOntextIns.userDetails.email}`
         );
