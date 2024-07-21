@@ -18,7 +18,7 @@ const BookmarkComp = () => {
     const callMeCollection = async () => {
       try {
         const myColl = await axios.get(
-          `http://localhost:8000/allBookmark?email=${myCOntextIns.userDetails.email}`
+          `https://note-maker-g95s.onrender.com/allBookmark?email=${myCOntextIns.userDetails.email}`
         );
 
         if (myColl.data.mesage === "No Any Bookmark is Selected") {
