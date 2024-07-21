@@ -78,7 +78,7 @@ const MyAllNotes = () => {
         bgClr: selectedBg,
       };
       const selectedBgClr = await axios.put(
-        "http://localhost:8000/notesBg",
+        "https://note-maker-g95s.onrender.com/notesBg",
         backgroundCHangeDAta
       );
 
@@ -109,7 +109,7 @@ const MyAllNotes = () => {
     ).archived;
 
     try {
-      await axios.put("http://localhost:8000/bookmark", {
+      await axios.put("https://note-maker-g95s.onrender.com/bookmark", {
         id: gotId,
         boolVal: newArchivedStatus,
       });
@@ -131,7 +131,7 @@ const MyAllNotes = () => {
     console.log("idChecking---", idToDel);
 
     try {
-      const deleteRes = await axios.delete("http://localhost:8000/delete", {
+      const deleteRes = await axios.delete("https://note-maker-g95s.onrender.com/delete", {
         data: {
           id: idToDel,
           email: myCOntextIns.userDetails.email,
