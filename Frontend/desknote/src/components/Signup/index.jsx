@@ -59,7 +59,7 @@ const SignUp = () => {
 
     try {
       const axiosRes = await axios.post(
-        "http://localhost:8000/signup",
+        "https://note-maker-g95s.onrender.com/signup",
         signUpData
       );
 
